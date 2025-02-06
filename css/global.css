@@ -1,0 +1,67 @@
+@import url("css/componente/alertPopup.css");
+
+:root {
+  --primary-color: #004d40; 
+  --secondary-color: #ffb400; 
+  --accent-color: #d32f2f; 
+
+  --background-light: #f4f4f4; 
+  --background-dark: #1e1e1e; 
+  --background-more-dark: #212121; 
+
+  --text-primary: #212121; 
+  --text-secondary: #757575; 
+  --text-light: #ffffff; 
+  --text-muted: #bdbdbd; 
+
+  --success-color: #388e3c; 
+  --warning-color: #ffa000; 
+  --error-color: #d32f2f; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background: var(--background-dark);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page > .container {
+  flex: 1;
+}
+
+.loader {
+  border: 16px solid var(--background-light);
+  border-top: 16px solid var(--primary-color);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin .9s linear infinite;
+  position: fixed;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: none; 
+}
+
+@media (max-width: 576px) {
+  .loader {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

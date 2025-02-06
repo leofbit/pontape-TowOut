@@ -1,0 +1,47 @@
+.page {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #bdc3c7;  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.erroMensagem {
+	color: #2c3e50;
+}
+
+.erroMensagem i {
+	font-size: 80px;
+	color: #e74c3c; 
+	margin-bottom: 20px;
+}
+
+.erroMensagem h1 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.erroMensagem p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.button {
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 18px;
+	background-color: #3498db;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: #2980b9;
+}
