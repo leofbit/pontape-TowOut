@@ -8,7 +8,6 @@ Este repositório contém o desafio TowOut. A aplicação foi feita usando **PHP
 
 - **Interface responsiva** para todos os dispositivos.
 - **Busca por campeonatos e por nome do clube** para exibição dos jogos anteriores e próximos.
-- 
 ---
 
 ## 🛠 Tecnologias Utilizadas
