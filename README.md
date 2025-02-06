@@ -37,7 +37,7 @@ Este repositório contém o desafio TowOut. A aplicação foi feita usando **PHP
 
 ## LAYOUT
 - Tela principal
-<img src="https://img001.prntscr.com/file/img001/Er7xhQghQgmBFdqKrOxQVA.png" alt="Layout">
+<img src="https://img001.prntscr.com/file/img001/OA6wM9dwSwWhcUryDBYJWQ.png" alt="Layout">
 
 - Busca por competição.
 <img src="https://img001.prntscr.com/file/img001/vzn7H7_tTqKcFTgx1-2UPQ.png" alt="Layout">
